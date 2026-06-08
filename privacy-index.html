@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Sound Plug</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0a0a0a;
+      --surface: #111111;
+      --border: #222222;
+      --text: #e8e8e8;
+      --muted: #666666;
+      --accent: #c8f060;
+      --accent-dim: rgba(200, 240, 96, 0.08);
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 2rem 0;
+    }
+
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    .wordmark {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+
+    .hero {
+      padding: 4rem 0 3rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .hero h1 {
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      margin-bottom: 1rem;
+    }
+
+    .hero h1 span {
+      color: var(--accent);
+    }
+
+    .meta {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.7rem;
+      color: var(--muted);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    main {
+      padding: 3rem 0 6rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    .section-label {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.65rem;
+      font-weight: 500;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.75rem;
+    }
+
+    h2 {
+      font-size: 1.05rem;
+      font-weight: 500;
+      margin-bottom: 0.75rem;
+      color: var(--text);
+    }
+
+    p {
+      font-size: 0.925rem;
+      color: #aaaaaa;
+      margin-bottom: 0.75rem;
+    }
+
+    .callout {
+      background: var(--accent-dim);
+      border-left: 2px solid var(--accent);
+      padding: 1rem 1.25rem;
+      border-radius: 0 4px 4px 0;
+      margin: 1.5rem 0;
+    }
+
+    .callout p {
+      color: #cccccc;
+      margin: 0;
+      font-size: 0.9rem;
+    }
+
+    .divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 2.5rem 0;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 2rem 0;
+    }
+
+    footer p {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.65rem;
+      color: var(--muted);
+      letter-spacing: 0.05em;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <div style="display:flex;align-items:center;justify-content:space-between;"><div class="wordmark">Sound Plug</div><a href="https://soundplugextension-code.github.io/soundplug-docs/" style="font-family:'DM Mono',monospace;font-size:0.65rem;font-weight:500;letter-spacing:0.15em;text-transform:uppercase;color:var(--muted);text-decoration:none;" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--muted)'">Help &amp; Docs →</a></div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="hero">
+      <h1>Privacy <span>Policy</span></h1>
+      <p class="meta">Effective date: June 2026 &nbsp;·&nbsp; Sound Plug Beta</p>
+    </div>
+
+    <main>
+
+      <div class="callout">
+        <p>Sound Plug does not collect, store, or transmit any personal data. All audio processing happens entirely on your device.</p>
+      </div>
+
+      <section>
+        <div class="section-label">01</div>
+        <h2>Overview</h2>
+        <p>Sound Plug is a Chrome extension that uses on-device AI to separate audio sources from any browser tab. This privacy policy explains what data the extension accesses and how it is used.</p>
+        <p>We are committed to your privacy. This extension was built with a no-collection-by-default approach.</p>
+      </section>
+
+      <hr class="divider" />
+
+      <section>
+        <div class="section-label">02</div>
+        <h2>Data We Do Not Collect</h2>
+        <p>Sound Plug does not collect, transmit, or share any of the following:</p>
+        <p>— Personal information (name, email, location)<br>
+           — Browsing history or visited URLs<br>
+           — Audio content or recordings<br>
+           — Usage analytics or behavioral data<br>
+           — Any data that could identify you as an individual</p>
+      </section>
+
+      <hr class="divider" />
+
+      <section>
+        <div class="section-label">03</div>
+        <h2>Permissions We Use</h2>
+        <p><strong>tabCapture</strong> — Captures the audio stream from your active tab solely to perform on-device audio separation. The audio is processed in memory and never stored or sent anywhere.</p>
+        <p><strong>offscreen</strong> — Runs audio processing in an offscreen document so that the AI model can operate without interrupting your browser experience.</p>
+        <p><strong>activeTab / tabs</strong> — Identifies the tab you want to apply audio separation to. No tab content or URLs are recorded.</p>
+        <p><strong>storage</strong> — Saves your preferences (such as settings) locally on your device using Chrome's built-in storage. This data never leaves your browser.</p>
+        <p><strong>Host permissions (huggingface.co, cdn.jsdelivr.net)</strong> — Used to download the AI model files needed for audio processing. These requests do not include any user data. Once downloaded, all processing is local.</p>
+      </section>
+
+      <hr class="divider" />
+
+      <section>
+        <div class="section-label">04</div>
+        <h2>Third-Party Services</h2>
+        <p>The extension downloads AI model files from Hugging Face (<a href="https://huggingface.co" target="_blank">huggingface.co</a>) and jsDelivr (<a href="https://cdn.jsdelivr.net" target="_blank">cdn.jsdelivr.net</a>). These are standard CDN requests and do not include any personal or identifying information. Once downloaded, the models run fully on your device.</p>
+        <p>Sound Plug does not integrate with any analytics, advertising, or data collection services.</p>
+      </section>
+
+      <hr class="divider" />
+
+      <section>
+        <div class="section-label">05</div>
+        <h2>Changes to This Policy</h2>
+        <p>If this policy is updated, the effective date at the top of this page will reflect the change. We will not reduce your privacy protections without clearly communicating the change.</p>
+      </section>
+
+      <hr class="divider" />
+
+      <section>
+        <div class="section-label">06</div>
+        <h2>Contact</h2>
+        <p>If you have any questions about this privacy policy or the extension, you can reach us via the Chrome Web Store listing page.</p>
+      </section>
+
+    </main>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Sound Plug &nbsp;·&nbsp; <a href="https://soundplugextension-code.github.io/soundplug-docs/">Help &amp; Docs</a> &nbsp;·&nbsp; All audio processing is local and on-device</p>
+    </div>
+  </footer>
+
+</body>
+</html>
